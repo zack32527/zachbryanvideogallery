@@ -11,8 +11,7 @@ body{
     font-family: "Carter One", system-ui;
     font-weight: 400;
     font-style: normal;
-    background-image: conic-gradient(from .5turn at 50% 110%, white, orange);
-
+    background-image: url(images/background.jpg);
 }
 
 header{
@@ -25,7 +24,8 @@ header{
 
 header img{
     max-width: 250px;
-    padding: 1em;
+    margin: 1em;
+    border: 3px ridge orangered;
 }
 
 header, footer{
@@ -40,6 +40,7 @@ nav{
 
 main{
     flex-basis: 65%;
+    
 }
 
 nav ul{
@@ -68,6 +69,9 @@ nav a:hover{
     color: blanchedalmond;
 }
 
+
+
+
 article{
     margin-bottom: 2em;
 }
@@ -95,6 +99,11 @@ footer{
     justify-content: center;
     background-color: rgb(179, 147, 106);
 
+}
+
+#cornerBtn{
+    display: none;
+    position: fixed;
 }
 
 /* MEDIA QUERIES */
